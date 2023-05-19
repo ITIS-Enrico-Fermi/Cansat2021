@@ -8,6 +8,25 @@ A project by sCANSATi team.
 
 _Awarded Highest Technical Achievement in the European Cansat Competition of 2021_
 
+## Index
+
+- Description
+
+- Design
+
+- Hardware and software
+  - Source code
+
+- National Flight Competition
+  - Data
+
+- European Competition
+  - Improvements
+
+- Awards
+
+- Report
+
 ## Description
 
 A Cansat is a small probe (its dimensions are roughly those of a soda can) that is launched from an altitude of 1000
@@ -36,6 +55,8 @@ the ground station via a radio link.
 Using FreeRTOS and ESP-IDF, we custom tailored a software for our needs and to exploit the full power of the ESP32
 (which is a very powerful dual-core microcontroller).
 
+### Source code
+
 To find out more on the software side, we published our source code. Feel free to take a look at
 [cansat_firmware](https://github.com/ITIS-Enrico-Fermi/cansat_firmware).
 
@@ -43,6 +64,8 @@ To find out more on the software side, we published our source code. Feel free t
 
 The first step of the competition is the _National Flight_. Three teams from Italy competed to pass on to the
 European Competition.
+
+### Data
 
 This flight validated our design. Data gathered from the National Flight Competition is available in this repository
 in the [flight.csv](data/flight.csv) file.
